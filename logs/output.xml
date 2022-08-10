@@ -1,39 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220810 18:02:18.427" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220810 18:19:21.667" rpa="false" schemaversion="3">
 <suite id="s1" name="testeVariavel" source="C:\Users\edutra\Desktop\robot sis\testeVariavel.robot">
-<test id="s1-t1" name="Operações" line="36">
+<test id="s1-t1" name="Média do aluno pela lista" line="54">
 <kw name="Evaluate" library="BuiltIn">
-<var>${resultado}</var>
-<arg>2+2</arg>
+<var>${media}</var>
+<arg>(${NOTAS[0]} + ${NOTAS[1]} + ${NOTAS[2]}) / 3</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220810 18:02:18.450" level="INFO">${resultado} = 4</msg>
-<status status="PASS" starttime="20220810 18:02:18.450" endtime="20220810 18:02:18.450"/>
+<msg timestamp="20220810 18:19:21.689" level="INFO">${media} = 6.666666666666667</msg>
+<status status="PASS" starttime="20220810 18:19:21.688" endtime="20220810 18:19:21.689"/>
 </kw>
-<kw name="Evaluate" library="BuiltIn">
-<var>${resultado}</var>
-<arg>2-2</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220810 18:02:18.451" level="INFO">${resultado} = 0</msg>
-<status status="PASS" starttime="20220810 18:02:18.451" endtime="20220810 18:02:18.451"/>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${media}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220810 18:19:21.689" endtime="20220810 18:19:21.690"/>
 </kw>
-<kw name="Evaluate" library="BuiltIn">
-<var>${resultado}</var>
-<arg>2*2</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220810 18:02:18.453" level="INFO">${resultado} = 4</msg>
-<status status="PASS" starttime="20220810 18:02:18.452" endtime="20220810 18:02:18.453"/>
-</kw>
-<kw name="Evaluate" library="BuiltIn">
-<var>${resultado}</var>
-<arg>2/2</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220810 18:02:18.454" level="INFO">${resultado} = 1.0</msg>
-<status status="PASS" starttime="20220810 18:02:18.453" endtime="20220810 18:02:18.454"/>
-</kw>
-<status status="PASS" starttime="20220810 18:02:18.449" endtime="20220810 18:02:18.455"/>
+<status status="PASS" starttime="20220810 18:19:21.687" endtime="20220810 18:19:21.690"/>
 </test>
 <doc>Tipos de váriaveis</doc>
-<status status="PASS" starttime="20220810 18:02:18.429" endtime="20220810 18:02:18.456"/>
+<status status="PASS" starttime="20220810 18:19:21.669" endtime="20220810 18:19:21.692"/>
 </suite>
 <statistics>
 <total>

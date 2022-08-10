@@ -13,6 +13,10 @@ Documentation       Tipos de váriaveis
 
 @{CELULAR}      Sansung     Motorola    Xiomi   Iphone      LG  
 
+&{ALUNO}        nome= Everton   nota1= 10       nota2= 9    nota3= 10
+
+@{NOTAS}        5       8      7
+
 *** Test Case ***
 
 Mostrar dicionário
@@ -42,3 +46,11 @@ Operações
     # Log         ${resultado}
     ${resultado}    Evaluate    2/2
     # Log         ${resultado}
+
+Média do aluno pelo dicionário
+    ${media}    Evaluate    (${ALUNO.nota1} + ${ALUNO.nota2} + ${ALUNO.nota3}) / 3
+    Log To Console  ${media}
+
+Média do aluno pela lista
+    ${media}    Evaluate    (${NOTAS[0]} + ${NOTAS[1]} + ${NOTAS[2]}) / 3
+    Log To Console  ${media}
