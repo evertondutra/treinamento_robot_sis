@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220810 17:42:15.574" rpa="false" schemaversion="3">
+<suite id="s1" name="testeVariavel" source="C:\Users\edutra\Desktop\robot sis\testeVariavel.robot">
+<test id="s1-t1" name="Mostrar dicionário" line="16">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOAS.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220810 17:42:15.596" endtime="20220810 17:42:15.598"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOAS}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220810 17:42:15.598" endtime="20220810 17:42:15.599"/>
+</kw>
+<status status="PASS" starttime="20220810 17:42:15.596" endtime="20220810 17:42:15.600"/>
+</test>
+<doc>Tipos de váriaveis</doc>
+<status status="PASS" starttime="20220810 17:42:15.576" endtime="20220810 17:42:15.603"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="testeVariavel">testeVariavel</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
