@@ -32,3 +32,13 @@ Mostrar Lista
     Log To Console      ${CELULAR[3]}
     Log To Console      ${CELULAR[4]}
 
+
+Operações
+    ${resultado}    Evaluate    2+2
+    # Log         ${resultado}
+    ${resultado}    Evaluate    2-2
+    # Log         ${resultado}
+    ${resultado}    Evaluate    2*2
+    # Log         ${resultado}
+    ${resultado}    Evaluate    2/2
+    # Log         ${resultado}

@@ -1,88 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220810 17:54:26.879" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220810 18:02:18.427" rpa="false" schemaversion="3">
 <suite id="s1" name="testeVariavel" source="C:\Users\edutra\Desktop\robot sis\testeVariavel.robot">
-<test id="s1-t1" name="Mostrar dicionário" line="18">
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.900" endtime="20220810 17:54:26.901"/>
+<test id="s1-t1" name="Operações" line="36">
+<kw name="Evaluate" library="BuiltIn">
+<var>${resultado}</var>
+<arg>2+2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20220810 18:02:18.450" level="INFO">${resultado} = 4</msg>
+<status status="PASS" starttime="20220810 18:02:18.450" endtime="20220810 18:02:18.450"/>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.nome}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.902" endtime="20220810 17:54:26.903"/>
+<kw name="Evaluate" library="BuiltIn">
+<var>${resultado}</var>
+<arg>2-2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20220810 18:02:18.451" level="INFO">${resultado} = 0</msg>
+<status status="PASS" starttime="20220810 18:02:18.451" endtime="20220810 18:02:18.451"/>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.sobrenome}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.904" endtime="20220810 17:54:26.905"/>
+<kw name="Evaluate" library="BuiltIn">
+<var>${resultado}</var>
+<arg>2*2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20220810 18:02:18.453" level="INFO">${resultado} = 4</msg>
+<status status="PASS" starttime="20220810 18:02:18.452" endtime="20220810 18:02:18.453"/>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.idade}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.905" endtime="20220810 17:54:26.907"/>
+<kw name="Evaluate" library="BuiltIn">
+<var>${resultado}</var>
+<arg>2/2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20220810 18:02:18.454" level="INFO">${resultado} = 1.0</msg>
+<status status="PASS" starttime="20220810 18:02:18.453" endtime="20220810 18:02:18.454"/>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.altura}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.907" endtime="20220810 17:54:26.908"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.sexo}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.909" endtime="20220810 17:54:26.910"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.empresa}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.911" endtime="20220810 17:54:26.913"/>
-</kw>
-<status status="PASS" starttime="20220810 17:54:26.899" endtime="20220810 17:54:26.913"/>
-</test>
-<test id="s1-t2" name="Mostrar Lista" line="27">
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.916" endtime="20220810 17:54:26.917"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[0]}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.917" endtime="20220810 17:54:26.919"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[1]}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.919" endtime="20220810 17:54:26.920"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[2]}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.921" endtime="20220810 17:54:26.921"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[3]}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.922" endtime="20220810 17:54:26.923"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[4]}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220810 17:54:26.923" endtime="20220810 17:54:26.924"/>
-</kw>
-<status status="PASS" starttime="20220810 17:54:26.915" endtime="20220810 17:54:26.925"/>
+<status status="PASS" starttime="20220810 18:02:18.449" endtime="20220810 18:02:18.455"/>
 </test>
 <doc>Tipos de váriaveis</doc>
-<status status="PASS" starttime="20220810 17:54:26.881" endtime="20220810 17:54:26.926"/>
+<status status="PASS" starttime="20220810 18:02:18.429" endtime="20220810 18:02:18.456"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="0" skip="0" id="s1" name="testeVariavel">testeVariavel</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="testeVariavel">testeVariavel</stat>
 </suite>
 </statistics>
 <errors>
