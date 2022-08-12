@@ -55,10 +55,13 @@ Média do aluno pela lista
     ${media}    Evaluate    (${NOTAS[0]} + ${NOTAS[1]} + ${NOTAS[2]}) / 3
     Log To Console  ${media}
 
-Argumentos e retorno
+Argumentos e retornos
     ${resultado}    Somar dois números  6   3
     Log to Console  ${resultado}
 
+Argumentos embutidos
+    ${resultado}    Somar os números 2 e 5
+    Log To Console  ${resultado}
 
 *** Keywords ***
 
@@ -66,3 +69,7 @@ Somar dois números
     [Arguments]     ${NUM1}     ${NUM2}
     ${SOMA}     Evaluate    ${NUM1} + ${NUM2}
     [Return]  ${SOMA}
+
+Somar os números ${NUM1} e ${NUM2}
+    ${SOMA}     Evaluate    ${NUM1} + ${NUM2}
+    [Return]    ${SOMA}
