@@ -15,7 +15,7 @@ Documentation       Tipos de váriaveis
 
 &{ALUNO}        nome= Everton   nota1= 10       nota2= 9    nota3= 10
 
-@{NOTAS}        5       8      7
+@{NOTAS}        5       10      10
 
 *** Test Case ***
 
@@ -54,3 +54,15 @@ Média do aluno pelo dicionário
 Média do aluno pela lista
     ${media}    Evaluate    (${NOTAS[0]} + ${NOTAS[1]} + ${NOTAS[2]}) / 3
     Log To Console  ${media}
+
+Argumentos e retorno
+    ${resultado}    Somar dois números  6   3
+    Log to Console  ${resultado}
+
+
+*** Keywords ***
+
+Somar dois números
+    [Arguments]     ${NUM1}     ${NUM2}
+    ${SOMA}     Evaluate    ${NUM1} + ${NUM2}
+    [Return]  ${SOMA}
