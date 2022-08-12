@@ -63,6 +63,19 @@ Argumentos embutidos
     ${resultado}    Somar os números 2 e 5
     Log To Console  ${resultado}
 
+Subtraindo
+    ${resultado}    Somar dois números  9   3
+    Log to Console  ${resultado}
+
+Dividindo
+    ${resultado}    Somar dois números  6   3
+    Log to Console  ${resultado}
+
+Multiplicando
+    ${resultado}    Somar dois números  3   3
+    Log to Console  ${resultado}
+
+
 *** Keywords ***
 
 Somar dois números
