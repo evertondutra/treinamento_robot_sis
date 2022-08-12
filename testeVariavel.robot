@@ -64,16 +64,20 @@ Argumentos embutidos
     Log To Console  ${resultado}
 
 Subtraindo
-    ${resultado}    Somar dois números  9   3
+    ${resultado}    Subtrair dois números  9   3
     Log to Console  ${resultado}
 
 Dividindo
-    ${resultado}    Somar dois números  6   3
+    ${resultado}    Dividir dois números  6   3
     Log to Console  ${resultado}
 
 Multiplicando
-    ${resultado}    Somar dois números  3   3
+    ${resultado}    Multiplicar dois números  3   3
     Log to Console  ${resultado}
+
+Escreve email
+    ${EMAIL}    Retorna e-mail Completo "everton"
+    Log To Console      ${EMAIL}
 
 
 *** Keywords ***
@@ -102,3 +106,7 @@ Multiplicar dois números
     [Arguments]     ${NUM1}     ${NUM2}
     ${MULT}     Evaluate    ${NUM1} * ${NUM2}
     [Return]  ${MULT}
+
+Retorna e-mail Completo ${EMAIL}
+    ${EMAIL}    Evaluate    ${EMAIL}+ "@email.com.br"
+    [Return]    ${EMAIL}
