@@ -1,78 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220812 19:30:05.890" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220812 19:56:42.077" rpa="false" schemaversion="3">
 <suite id="s1" name="testeVariavel" source="C:\Users\edutra\Desktop\robot sis\testeVariavel.robot">
-<test id="s1-t1" name="Exibir dict" line="85">
-<kw name="Exibir dicionario &amp;{PESSOAS}" sourcename="Exibir dicionario ${dict}">
-<kw name="Log To Console" library="BuiltIn">
-<arg>${dict}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:30:05.915" endtime="20220812 19:30:05.916"/>
-</kw>
-<for flavor="IN">
-<var>${item}</var>
-<value>&amp;{dict}</value>
+<test id="s1-t1" name="Contador" line="88">
+<kw name="Exibir números de 0 a 11">
+<for flavor="IN RANGE">
+<var>${count}</var>
+<value>0</value>
+<value>11</value>
 <iter>
-<var name="${item}">('nome', ' Everton')</var>
+<var name="${count}">0</var>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${item}</arg>
+<arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:30:05.916" endtime="20220812 19:30:05.917"/>
+<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.100"/>
 </kw>
-<status status="PASS" starttime="20220812 19:30:05.916" endtime="20220812 19:30:05.917"/>
+<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.100"/>
 </iter>
 <iter>
-<var name="${item}">('sobrenome', ' Dutra')</var>
+<var name="${count}">1</var>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${item}</arg>
+<arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:30:05.917" endtime="20220812 19:30:05.918"/>
+<status status="PASS" starttime="20220812 19:56:42.101" endtime="20220812 19:56:42.101"/>
 </kw>
-<status status="PASS" starttime="20220812 19:30:05.917" endtime="20220812 19:30:05.918"/>
+<status status="PASS" starttime="20220812 19:56:42.101" endtime="20220812 19:56:42.101"/>
 </iter>
 <iter>
-<var name="${item}">('idade', ' 38')</var>
+<var name="${count}">2</var>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${item}</arg>
+<arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:30:05.918" endtime="20220812 19:30:05.919"/>
+<status status="PASS" starttime="20220812 19:56:42.102" endtime="20220812 19:56:42.102"/>
 </kw>
-<status status="PASS" starttime="20220812 19:30:05.918" endtime="20220812 19:30:05.919"/>
+<status status="PASS" starttime="20220812 19:56:42.101" endtime="20220812 19:56:42.102"/>
 </iter>
 <iter>
-<var name="${item}">('altura', ' 1,85')</var>
+<var name="${count}">3</var>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${item}</arg>
+<arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:30:05.919" endtime="20220812 19:30:05.920"/>
+<status status="PASS" starttime="20220812 19:56:42.104" endtime="20220812 19:56:42.105"/>
 </kw>
-<status status="PASS" starttime="20220812 19:30:05.919" endtime="20220812 19:30:05.920"/>
+<status status="PASS" starttime="20220812 19:56:42.103" endtime="20220812 19:56:42.105"/>
 </iter>
 <iter>
-<var name="${item}">('sexo', ' M')</var>
+<var name="${count}">4</var>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${item}</arg>
+<arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:30:05.920" endtime="20220812 19:30:05.921"/>
+<status status="PASS" starttime="20220812 19:56:42.105" endtime="20220812 19:56:42.106"/>
 </kw>
-<status status="PASS" starttime="20220812 19:30:05.920" endtime="20220812 19:30:05.921"/>
+<status status="PASS" starttime="20220812 19:56:42.105" endtime="20220812 19:56:42.106"/>
 </iter>
 <iter>
-<var name="${item}">('empresa', ' SIS')</var>
+<var name="${count}">5</var>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${item}</arg>
+<arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:30:05.922" endtime="20220812 19:30:05.922"/>
+<status status="PASS" starttime="20220812 19:56:42.106" endtime="20220812 19:56:42.108"/>
 </kw>
-<status status="PASS" starttime="20220812 19:30:05.921" endtime="20220812 19:30:05.922"/>
+<status status="PASS" starttime="20220812 19:56:42.106" endtime="20220812 19:56:42.108"/>
 </iter>
-<status status="PASS" starttime="20220812 19:30:05.916" endtime="20220812 19:30:05.922"/>
+<iter>
+<var name="${count}">6</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 19:56:42.109" endtime="20220812 19:56:42.109"/>
+</kw>
+<status status="PASS" starttime="20220812 19:56:42.108" endtime="20220812 19:56:42.109"/>
+</iter>
+<iter>
+<var name="${count}">7</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 19:56:42.110" endtime="20220812 19:56:42.111"/>
+</kw>
+<status status="PASS" starttime="20220812 19:56:42.109" endtime="20220812 19:56:42.111"/>
+</iter>
+<iter>
+<var name="${count}">8</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 19:56:42.111" endtime="20220812 19:56:42.112"/>
+</kw>
+<status status="PASS" starttime="20220812 19:56:42.111" endtime="20220812 19:56:42.112"/>
+</iter>
+<iter>
+<var name="${count}">9</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 19:56:42.112" endtime="20220812 19:56:42.113"/>
+</kw>
+<status status="PASS" starttime="20220812 19:56:42.112" endtime="20220812 19:56:42.113"/>
+</iter>
+<iter>
+<var name="${count}">10</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 19:56:42.113" endtime="20220812 19:56:42.114"/>
+</kw>
+<status status="PASS" starttime="20220812 19:56:42.113" endtime="20220812 19:56:42.114"/>
+</iter>
+<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.114"/>
 </for>
-<status status="PASS" starttime="20220812 19:30:05.914" endtime="20220812 19:30:05.923"/>
+<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.114"/>
 </kw>
-<status status="PASS" starttime="20220812 19:30:05.912" endtime="20220812 19:30:05.923"/>
+<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.114"/>
 </test>
 <doc>Tipos de váriaveis</doc>
-<status status="PASS" starttime="20220812 19:30:05.892" endtime="20220812 19:30:05.925"/>
+<status status="PASS" starttime="20220812 19:56:42.079" endtime="20220812 19:56:42.116"/>
 </suite>
 <statistics>
 <total>

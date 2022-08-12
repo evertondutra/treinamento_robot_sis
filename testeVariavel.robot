@@ -85,6 +85,9 @@ Exibir lista
 Exibir dict 
     Exibir dicionario &{PESSOAS}
 
+Contador
+    Exibir números de 0 a 11
+
 
 *** Keywords ***
 
@@ -128,3 +131,9 @@ Exibir dicionario ${dict}
     FOR  ${item}    IN    &{dict}
         Log to Console   ${item}
     END
+
+Exibir números de 0 a 11
+    FOR  ${count}    IN RANGE    0   11
+        Log To Console      ${count}
+    END
+
