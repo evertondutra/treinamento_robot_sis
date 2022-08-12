@@ -76,7 +76,7 @@ Multiplicando
     Log to Console  ${resultado}
 
 Escreve email
-    ${EMAIL}    Retorna e-mail Completo "everton"
+    ${EMAIL}    Retorna e-mail Completo everton
     Log To Console      ${EMAIL}
 
 
@@ -108,5 +108,4 @@ Multiplicar dois números
     [Return]  ${MULT}
 
 Retorna e-mail Completo ${EMAIL}
-    ${EMAIL}    Evaluate    ${EMAIL}+ "@email.com.br"
-    [Return]    ${EMAIL}
+    [Return]    ${EMAIL}@email.com.br
