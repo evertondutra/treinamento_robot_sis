@@ -82,6 +82,9 @@ Escreve email
 Exibir lista 
     Exibir item da lista @{CELULAR}
 
+Exibir dict 
+    Exibir dicionario &{PESSOAS}
+
 
 *** Keywords ***
 
@@ -117,5 +120,11 @@ Exibir item da lista ${lista}
     Log To Console      ${lista}
     FOR  ${item}    IN    @{lista}
         Exit For Loop If    "${item}" == "Iphone"
+        Log to Console   ${item}
+    END
+
+Exibir dicionario ${dict}
+    Log To Console      ${dict}
+    FOR  ${item}    IN    &{dict}
         Log to Console   ${item}
     END
