@@ -87,6 +87,7 @@ Exibir dict
 
 Contador
     Exibir números de 0 a 11
+    Exibir de 0 a 101
 
 
 *** Keywords ***
@@ -134,6 +135,11 @@ Exibir dicionario ${dict}
 
 Exibir números de 0 a 11
     FOR  ${count}    IN RANGE    0   11
+        Log To Console      ${count}
+    END
+
+Exibir de 0 a ${VALOR}
+    FOR  ${count}    IN RANGE    0   ${VALOR}
         Log To Console      ${count}
     END
 

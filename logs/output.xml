@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220812 19:56:42.077" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220812 20:04:13.531" rpa="false" schemaversion="3">
 <suite id="s1" name="testeVariavel" source="C:\Users\edutra\Desktop\robot sis\testeVariavel.robot">
 <test id="s1-t1" name="Contador" line="88">
 <kw name="Exibir números de 0 a 11">
@@ -12,108 +12,1026 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.100"/>
+<status status="PASS" starttime="20220812 20:04:13.554" endtime="20220812 20:04:13.555"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.100"/>
+<status status="PASS" starttime="20220812 20:04:13.554" endtime="20220812 20:04:13.555"/>
 </iter>
 <iter>
 <var name="${count}">1</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.101" endtime="20220812 19:56:42.101"/>
+<status status="PASS" starttime="20220812 20:04:13.555" endtime="20220812 20:04:13.556"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.101" endtime="20220812 19:56:42.101"/>
+<status status="PASS" starttime="20220812 20:04:13.555" endtime="20220812 20:04:13.556"/>
 </iter>
 <iter>
 <var name="${count}">2</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.102" endtime="20220812 19:56:42.102"/>
+<status status="PASS" starttime="20220812 20:04:13.556" endtime="20220812 20:04:13.557"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.101" endtime="20220812 19:56:42.102"/>
+<status status="PASS" starttime="20220812 20:04:13.556" endtime="20220812 20:04:13.557"/>
 </iter>
 <iter>
 <var name="${count}">3</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.104" endtime="20220812 19:56:42.105"/>
+<status status="PASS" starttime="20220812 20:04:13.557" endtime="20220812 20:04:13.558"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.103" endtime="20220812 19:56:42.105"/>
+<status status="PASS" starttime="20220812 20:04:13.557" endtime="20220812 20:04:13.558"/>
 </iter>
 <iter>
 <var name="${count}">4</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.105" endtime="20220812 19:56:42.106"/>
+<status status="PASS" starttime="20220812 20:04:13.559" endtime="20220812 20:04:13.559"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.105" endtime="20220812 19:56:42.106"/>
+<status status="PASS" starttime="20220812 20:04:13.558" endtime="20220812 20:04:13.559"/>
 </iter>
 <iter>
 <var name="${count}">5</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.106" endtime="20220812 19:56:42.108"/>
+<status status="PASS" starttime="20220812 20:04:13.560" endtime="20220812 20:04:13.560"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.106" endtime="20220812 19:56:42.108"/>
+<status status="PASS" starttime="20220812 20:04:13.560" endtime="20220812 20:04:13.561"/>
 </iter>
 <iter>
 <var name="${count}">6</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.109" endtime="20220812 19:56:42.109"/>
+<status status="PASS" starttime="20220812 20:04:13.561" endtime="20220812 20:04:13.561"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.108" endtime="20220812 19:56:42.109"/>
+<status status="PASS" starttime="20220812 20:04:13.561" endtime="20220812 20:04:13.562"/>
 </iter>
 <iter>
 <var name="${count}">7</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.110" endtime="20220812 19:56:42.111"/>
+<status status="PASS" starttime="20220812 20:04:13.562" endtime="20220812 20:04:13.563"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.109" endtime="20220812 19:56:42.111"/>
+<status status="PASS" starttime="20220812 20:04:13.562" endtime="20220812 20:04:13.563"/>
 </iter>
 <iter>
 <var name="${count}">8</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.111" endtime="20220812 19:56:42.112"/>
+<status status="PASS" starttime="20220812 20:04:13.563" endtime="20220812 20:04:13.564"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.111" endtime="20220812 19:56:42.112"/>
+<status status="PASS" starttime="20220812 20:04:13.563" endtime="20220812 20:04:13.564"/>
 </iter>
 <iter>
 <var name="${count}">9</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.112" endtime="20220812 19:56:42.113"/>
+<status status="PASS" starttime="20220812 20:04:13.564" endtime="20220812 20:04:13.565"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.112" endtime="20220812 19:56:42.113"/>
+<status status="PASS" starttime="20220812 20:04:13.564" endtime="20220812 20:04:13.565"/>
 </iter>
 <iter>
 <var name="${count}">10</var>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${count}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 19:56:42.113" endtime="20220812 19:56:42.114"/>
+<status status="PASS" starttime="20220812 20:04:13.565" endtime="20220812 20:04:13.566"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.113" endtime="20220812 19:56:42.114"/>
+<status status="PASS" starttime="20220812 20:04:13.565" endtime="20220812 20:04:13.566"/>
 </iter>
-<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.114"/>
+<status status="PASS" starttime="20220812 20:04:13.553" endtime="20220812 20:04:13.566"/>
 </for>
-<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.114"/>
+<status status="PASS" starttime="20220812 20:04:13.553" endtime="20220812 20:04:13.566"/>
 </kw>
-<status status="PASS" starttime="20220812 19:56:42.099" endtime="20220812 19:56:42.114"/>
+<kw name="Exibir de 0 a 101" sourcename="Exibir de 0 a ${VALOR}">
+<for flavor="IN RANGE">
+<var>${count}</var>
+<value>0</value>
+<value>${VALOR}</value>
+<iter>
+<var name="${count}">0</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.567" endtime="20220812 20:04:13.567"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.567" endtime="20220812 20:04:13.567"/>
+</iter>
+<iter>
+<var name="${count}">1</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.567" endtime="20220812 20:04:13.568"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.567" endtime="20220812 20:04:13.568"/>
+</iter>
+<iter>
+<var name="${count}">2</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.568" endtime="20220812 20:04:13.568"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.568" endtime="20220812 20:04:13.568"/>
+</iter>
+<iter>
+<var name="${count}">3</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.568" endtime="20220812 20:04:13.569"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.568" endtime="20220812 20:04:13.569"/>
+</iter>
+<iter>
+<var name="${count}">4</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.569" endtime="20220812 20:04:13.569"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.569" endtime="20220812 20:04:13.569"/>
+</iter>
+<iter>
+<var name="${count}">5</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.569" endtime="20220812 20:04:13.569"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.569" endtime="20220812 20:04:13.569"/>
+</iter>
+<iter>
+<var name="${count}">6</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.570" endtime="20220812 20:04:13.570"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.569" endtime="20220812 20:04:13.570"/>
+</iter>
+<iter>
+<var name="${count}">7</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.570" endtime="20220812 20:04:13.570"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.570" endtime="20220812 20:04:13.570"/>
+</iter>
+<iter>
+<var name="${count}">8</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.570" endtime="20220812 20:04:13.571"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.570" endtime="20220812 20:04:13.571"/>
+</iter>
+<iter>
+<var name="${count}">9</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.571" endtime="20220812 20:04:13.572"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.571" endtime="20220812 20:04:13.572"/>
+</iter>
+<iter>
+<var name="${count}">10</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.572" endtime="20220812 20:04:13.573"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.572" endtime="20220812 20:04:13.574"/>
+</iter>
+<iter>
+<var name="${count}">11</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.574" endtime="20220812 20:04:13.574"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.574" endtime="20220812 20:04:13.574"/>
+</iter>
+<iter>
+<var name="${count}">12</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.575" endtime="20220812 20:04:13.575"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.574" endtime="20220812 20:04:13.575"/>
+</iter>
+<iter>
+<var name="${count}">13</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.575" endtime="20220812 20:04:13.575"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.575" endtime="20220812 20:04:13.575"/>
+</iter>
+<iter>
+<var name="${count}">14</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.576" endtime="20220812 20:04:13.576"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.576" endtime="20220812 20:04:13.576"/>
+</iter>
+<iter>
+<var name="${count}">15</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.577" endtime="20220812 20:04:13.578"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.576" endtime="20220812 20:04:13.578"/>
+</iter>
+<iter>
+<var name="${count}">16</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.579" endtime="20220812 20:04:13.580"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.578" endtime="20220812 20:04:13.580"/>
+</iter>
+<iter>
+<var name="${count}">17</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.580" endtime="20220812 20:04:13.581"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.580" endtime="20220812 20:04:13.581"/>
+</iter>
+<iter>
+<var name="${count}">18</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.581" endtime="20220812 20:04:13.581"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.581" endtime="20220812 20:04:13.581"/>
+</iter>
+<iter>
+<var name="${count}">19</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.582" endtime="20220812 20:04:13.582"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.581" endtime="20220812 20:04:13.582"/>
+</iter>
+<iter>
+<var name="${count}">20</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.582" endtime="20220812 20:04:13.583"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.582" endtime="20220812 20:04:13.583"/>
+</iter>
+<iter>
+<var name="${count}">21</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.583" endtime="20220812 20:04:13.584"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.583" endtime="20220812 20:04:13.584"/>
+</iter>
+<iter>
+<var name="${count}">22</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.584" endtime="20220812 20:04:13.584"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.584" endtime="20220812 20:04:13.584"/>
+</iter>
+<iter>
+<var name="${count}">23</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.584" endtime="20220812 20:04:13.584"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.584" endtime="20220812 20:04:13.584"/>
+</iter>
+<iter>
+<var name="${count}">24</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.584" endtime="20220812 20:04:13.585"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.584" endtime="20220812 20:04:13.585"/>
+</iter>
+<iter>
+<var name="${count}">25</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.585" endtime="20220812 20:04:13.585"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.585" endtime="20220812 20:04:13.585"/>
+</iter>
+<iter>
+<var name="${count}">26</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.586" endtime="20220812 20:04:13.586"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.585" endtime="20220812 20:04:13.587"/>
+</iter>
+<iter>
+<var name="${count}">27</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.587" endtime="20220812 20:04:13.587"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.587" endtime="20220812 20:04:13.587"/>
+</iter>
+<iter>
+<var name="${count}">28</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.588" endtime="20220812 20:04:13.588"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.588" endtime="20220812 20:04:13.588"/>
+</iter>
+<iter>
+<var name="${count}">29</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.588" endtime="20220812 20:04:13.589"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.588" endtime="20220812 20:04:13.589"/>
+</iter>
+<iter>
+<var name="${count}">30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.589" endtime="20220812 20:04:13.591"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.589" endtime="20220812 20:04:13.591"/>
+</iter>
+<iter>
+<var name="${count}">31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.591" endtime="20220812 20:04:13.592"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.591" endtime="20220812 20:04:13.592"/>
+</iter>
+<iter>
+<var name="${count}">32</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.592" endtime="20220812 20:04:13.593"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.592" endtime="20220812 20:04:13.593"/>
+</iter>
+<iter>
+<var name="${count}">33</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.594" endtime="20220812 20:04:13.594"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.593" endtime="20220812 20:04:13.594"/>
+</iter>
+<iter>
+<var name="${count}">34</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.595" endtime="20220812 20:04:13.596"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.595" endtime="20220812 20:04:13.596"/>
+</iter>
+<iter>
+<var name="${count}">35</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.596" endtime="20220812 20:04:13.597"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.596" endtime="20220812 20:04:13.597"/>
+</iter>
+<iter>
+<var name="${count}">36</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.597" endtime="20220812 20:04:13.598"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.597" endtime="20220812 20:04:13.598"/>
+</iter>
+<iter>
+<var name="${count}">37</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.598" endtime="20220812 20:04:13.598"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.598" endtime="20220812 20:04:13.598"/>
+</iter>
+<iter>
+<var name="${count}">38</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.598" endtime="20220812 20:04:13.599"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.598" endtime="20220812 20:04:13.599"/>
+</iter>
+<iter>
+<var name="${count}">39</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.599" endtime="20220812 20:04:13.599"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.599" endtime="20220812 20:04:13.599"/>
+</iter>
+<iter>
+<var name="${count}">40</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.599" endtime="20220812 20:04:13.600"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.599" endtime="20220812 20:04:13.600"/>
+</iter>
+<iter>
+<var name="${count}">41</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.600" endtime="20220812 20:04:13.600"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.600" endtime="20220812 20:04:13.600"/>
+</iter>
+<iter>
+<var name="${count}">42</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.600" endtime="20220812 20:04:13.601"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.600" endtime="20220812 20:04:13.601"/>
+</iter>
+<iter>
+<var name="${count}">43</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.601" endtime="20220812 20:04:13.601"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.601" endtime="20220812 20:04:13.601"/>
+</iter>
+<iter>
+<var name="${count}">44</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.601" endtime="20220812 20:04:13.602"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.601" endtime="20220812 20:04:13.602"/>
+</iter>
+<iter>
+<var name="${count}">45</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.602" endtime="20220812 20:04:13.602"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.602" endtime="20220812 20:04:13.602"/>
+</iter>
+<iter>
+<var name="${count}">46</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.602" endtime="20220812 20:04:13.603"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.602" endtime="20220812 20:04:13.603"/>
+</iter>
+<iter>
+<var name="${count}">47</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.603" endtime="20220812 20:04:13.603"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.603" endtime="20220812 20:04:13.603"/>
+</iter>
+<iter>
+<var name="${count}">48</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.603" endtime="20220812 20:04:13.603"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.603" endtime="20220812 20:04:13.603"/>
+</iter>
+<iter>
+<var name="${count}">49</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.604" endtime="20220812 20:04:13.604"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.604" endtime="20220812 20:04:13.604"/>
+</iter>
+<iter>
+<var name="${count}">50</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.604" endtime="20220812 20:04:13.605"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.604" endtime="20220812 20:04:13.605"/>
+</iter>
+<iter>
+<var name="${count}">51</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.605" endtime="20220812 20:04:13.605"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.605" endtime="20220812 20:04:13.605"/>
+</iter>
+<iter>
+<var name="${count}">52</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.606" endtime="20220812 20:04:13.606"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.605" endtime="20220812 20:04:13.606"/>
+</iter>
+<iter>
+<var name="${count}">53</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.606" endtime="20220812 20:04:13.608"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.606" endtime="20220812 20:04:13.608"/>
+</iter>
+<iter>
+<var name="${count}">54</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.609" endtime="20220812 20:04:13.609"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.608" endtime="20220812 20:04:13.609"/>
+</iter>
+<iter>
+<var name="${count}">55</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.609" endtime="20220812 20:04:13.610"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.609" endtime="20220812 20:04:13.610"/>
+</iter>
+<iter>
+<var name="${count}">56</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.610" endtime="20220812 20:04:13.611"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.610" endtime="20220812 20:04:13.611"/>
+</iter>
+<iter>
+<var name="${count}">57</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.612" endtime="20220812 20:04:13.612"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.611" endtime="20220812 20:04:13.612"/>
+</iter>
+<iter>
+<var name="${count}">58</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.613" endtime="20220812 20:04:13.613"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.613" endtime="20220812 20:04:13.614"/>
+</iter>
+<iter>
+<var name="${count}">59</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.614" endtime="20220812 20:04:13.614"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.614" endtime="20220812 20:04:13.614"/>
+</iter>
+<iter>
+<var name="${count}">60</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.614" endtime="20220812 20:04:13.615"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.614" endtime="20220812 20:04:13.615"/>
+</iter>
+<iter>
+<var name="${count}">61</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.615" endtime="20220812 20:04:13.615"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.615" endtime="20220812 20:04:13.615"/>
+</iter>
+<iter>
+<var name="${count}">62</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.615" endtime="20220812 20:04:13.616"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.615" endtime="20220812 20:04:13.616"/>
+</iter>
+<iter>
+<var name="${count}">63</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.616" endtime="20220812 20:04:13.616"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.616" endtime="20220812 20:04:13.616"/>
+</iter>
+<iter>
+<var name="${count}">64</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.616" endtime="20220812 20:04:13.617"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.616" endtime="20220812 20:04:13.617"/>
+</iter>
+<iter>
+<var name="${count}">65</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.617" endtime="20220812 20:04:13.617"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.617" endtime="20220812 20:04:13.617"/>
+</iter>
+<iter>
+<var name="${count}">66</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.617" endtime="20220812 20:04:13.618"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.617" endtime="20220812 20:04:13.618"/>
+</iter>
+<iter>
+<var name="${count}">67</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.618" endtime="20220812 20:04:13.618"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.618" endtime="20220812 20:04:13.618"/>
+</iter>
+<iter>
+<var name="${count}">68</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.618" endtime="20220812 20:04:13.618"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.618" endtime="20220812 20:04:13.618"/>
+</iter>
+<iter>
+<var name="${count}">69</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.619" endtime="20220812 20:04:13.619"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.619" endtime="20220812 20:04:13.619"/>
+</iter>
+<iter>
+<var name="${count}">70</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.619" endtime="20220812 20:04:13.619"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.619" endtime="20220812 20:04:13.619"/>
+</iter>
+<iter>
+<var name="${count}">71</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.619" endtime="20220812 20:04:13.620"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.619" endtime="20220812 20:04:13.620"/>
+</iter>
+<iter>
+<var name="${count}">72</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.620" endtime="20220812 20:04:13.620"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.620" endtime="20220812 20:04:13.620"/>
+</iter>
+<iter>
+<var name="${count}">73</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.620" endtime="20220812 20:04:13.621"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.620" endtime="20220812 20:04:13.621"/>
+</iter>
+<iter>
+<var name="${count}">74</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.621" endtime="20220812 20:04:13.622"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.621" endtime="20220812 20:04:13.622"/>
+</iter>
+<iter>
+<var name="${count}">75</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.622" endtime="20220812 20:04:13.622"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.622" endtime="20220812 20:04:13.622"/>
+</iter>
+<iter>
+<var name="${count}">76</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.622" endtime="20220812 20:04:13.623"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.622" endtime="20220812 20:04:13.623"/>
+</iter>
+<iter>
+<var name="${count}">77</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.623" endtime="20220812 20:04:13.623"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.623" endtime="20220812 20:04:13.623"/>
+</iter>
+<iter>
+<var name="${count}">78</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.623" endtime="20220812 20:04:13.624"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.623" endtime="20220812 20:04:13.624"/>
+</iter>
+<iter>
+<var name="${count}">79</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.630" endtime="20220812 20:04:13.645"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.629" endtime="20220812 20:04:13.645"/>
+</iter>
+<iter>
+<var name="${count}">80</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.645" endtime="20220812 20:04:13.646"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.645" endtime="20220812 20:04:13.646"/>
+</iter>
+<iter>
+<var name="${count}">81</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.652" endtime="20220812 20:04:13.652"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.651" endtime="20220812 20:04:13.652"/>
+</iter>
+<iter>
+<var name="${count}">82</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.652" endtime="20220812 20:04:13.653"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.652" endtime="20220812 20:04:13.653"/>
+</iter>
+<iter>
+<var name="${count}">83</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.653" endtime="20220812 20:04:13.653"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.653" endtime="20220812 20:04:13.653"/>
+</iter>
+<iter>
+<var name="${count}">84</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.654" endtime="20220812 20:04:13.654"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.653" endtime="20220812 20:04:13.654"/>
+</iter>
+<iter>
+<var name="${count}">85</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.654" endtime="20220812 20:04:13.655"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.654" endtime="20220812 20:04:13.655"/>
+</iter>
+<iter>
+<var name="${count}">86</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.655" endtime="20220812 20:04:13.655"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.655" endtime="20220812 20:04:13.655"/>
+</iter>
+<iter>
+<var name="${count}">87</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.655" endtime="20220812 20:04:13.656"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.655" endtime="20220812 20:04:13.656"/>
+</iter>
+<iter>
+<var name="${count}">88</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.656" endtime="20220812 20:04:13.656"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.656" endtime="20220812 20:04:13.656"/>
+</iter>
+<iter>
+<var name="${count}">89</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.657" endtime="20220812 20:04:13.657"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.657" endtime="20220812 20:04:13.658"/>
+</iter>
+<iter>
+<var name="${count}">90</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.658" endtime="20220812 20:04:13.659"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.658" endtime="20220812 20:04:13.659"/>
+</iter>
+<iter>
+<var name="${count}">91</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.659" endtime="20220812 20:04:13.660"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.659" endtime="20220812 20:04:13.660"/>
+</iter>
+<iter>
+<var name="${count}">92</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.661" endtime="20220812 20:04:13.661"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.661" endtime="20220812 20:04:13.661"/>
+</iter>
+<iter>
+<var name="${count}">93</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.662" endtime="20220812 20:04:13.662"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.661" endtime="20220812 20:04:13.662"/>
+</iter>
+<iter>
+<var name="${count}">94</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.662" endtime="20220812 20:04:13.663"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.662" endtime="20220812 20:04:13.663"/>
+</iter>
+<iter>
+<var name="${count}">95</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.664" endtime="20220812 20:04:13.664"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.663" endtime="20220812 20:04:13.664"/>
+</iter>
+<iter>
+<var name="${count}">96</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.665" endtime="20220812 20:04:13.665"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.665" endtime="20220812 20:04:13.665"/>
+</iter>
+<iter>
+<var name="${count}">97</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.665" endtime="20220812 20:04:13.667"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.665" endtime="20220812 20:04:13.667"/>
+</iter>
+<iter>
+<var name="${count}">98</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.667" endtime="20220812 20:04:13.668"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.667" endtime="20220812 20:04:13.668"/>
+</iter>
+<iter>
+<var name="${count}">99</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.668" endtime="20220812 20:04:13.669"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.668" endtime="20220812 20:04:13.669"/>
+</iter>
+<iter>
+<var name="${count}">100</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 20:04:13.670" endtime="20220812 20:04:13.671"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.669" endtime="20220812 20:04:13.671"/>
+</iter>
+<status status="PASS" starttime="20220812 20:04:13.566" endtime="20220812 20:04:13.671"/>
+</for>
+<status status="PASS" starttime="20220812 20:04:13.566" endtime="20220812 20:04:13.671"/>
+</kw>
+<status status="PASS" starttime="20220812 20:04:13.552" endtime="20220812 20:04:13.672"/>
 </test>
 <doc>Tipos de váriaveis</doc>
-<status status="PASS" starttime="20220812 19:56:42.079" endtime="20220812 19:56:42.116"/>
+<status status="PASS" starttime="20220812 20:04:13.533" endtime="20220812 20:04:13.673"/>
 </suite>
 <statistics>
 <total>
