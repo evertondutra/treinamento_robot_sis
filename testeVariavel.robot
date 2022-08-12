@@ -73,3 +73,19 @@ Somar dois números
 Somar os números ${NUM1} e ${NUM2}
     ${SOMA}     Evaluate    ${NUM1} + ${NUM2}
     [Return]    ${SOMA}
+
+
+Subtrair dois números
+    [Arguments]     ${NUM1}     ${NUM2}
+    ${SUB}     Evaluate    ${NUM1} - ${NUM2}
+    [Return]  ${SUB}
+
+Dividir dois números
+    [Arguments]     ${NUM1}     ${NUM2}
+    ${DIV}     Evaluate    ${NUM1} / ${NUM2}
+    [Return]  ${DIV}
+
+Multiplicar dois números
+    [Arguments]     ${NUM1}     ${NUM2}
+    ${MULT}     Evaluate    ${NUM1} * ${NUM2}
+    [Return]  ${MULT}
