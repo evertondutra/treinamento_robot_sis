@@ -1,270 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220812 18:18:44.130" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220812 19:15:34.271" rpa="false" schemaversion="3">
 <suite id="s1" name="testeVariavel" source="C:\Users\edutra\Desktop\robot sis\testeVariavel.robot">
-<test id="s1-t1" name="Mostrar dicionário" line="22">
+<test id="s1-t1" name="Exibir lista" line="82">
+<kw name="Exibir item da lista @{CELULAR}" sourcename="Exibir item da lista ${lista}">
 <kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS}</arg>
+<arg>${lista}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.151" endtime="20220812 18:18:44.152"/>
+<status status="PASS" starttime="20220812 19:15:34.295" endtime="20220812 19:15:34.295"/>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.nome}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.152" endtime="20220812 18:18:44.153"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.sobrenome}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.154" endtime="20220812 18:18:44.155"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.idade}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.155" endtime="20220812 18:18:44.157"/>
+<for flavor="IN">
+<var>${item}</var>
+<value>@{lista}</value>
+<iter>
+<var name="${item}">Sansung</var>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>"${item}" == "Iphone"</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" starttime="20220812 19:15:34.296" endtime="20220812 19:15:34.296"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.altura}</arg>
+<arg>${item}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.157" endtime="20220812 18:18:44.158"/>
+<status status="PASS" starttime="20220812 19:15:34.296" endtime="20220812 19:15:34.297"/>
+</kw>
+<status status="PASS" starttime="20220812 19:15:34.295" endtime="20220812 19:15:34.297"/>
+</iter>
+<iter>
+<var name="${item}">Motorola</var>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>"${item}" == "Iphone"</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" starttime="20220812 19:15:34.297" endtime="20220812 19:15:34.297"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.sexo}</arg>
+<arg>${item}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.159" endtime="20220812 18:18:44.159"/>
+<status status="PASS" starttime="20220812 19:15:34.297" endtime="20220812 19:15:34.299"/>
+</kw>
+<status status="PASS" starttime="20220812 19:15:34.297" endtime="20220812 19:15:34.299"/>
+</iter>
+<iter>
+<var name="${item}">Xiomi</var>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>"${item}" == "Iphone"</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<status status="PASS" starttime="20220812 19:15:34.299" endtime="20220812 19:15:34.300"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${PESSOAS.empresa}</arg>
+<arg>${item}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.160" endtime="20220812 18:18:44.166"/>
+<status status="PASS" starttime="20220812 19:15:34.300" endtime="20220812 19:15:34.300"/>
 </kw>
-<status status="PASS" starttime="20220812 18:18:44.150" endtime="20220812 18:18:44.185"/>
-</test>
-<test id="s1-t2" name="Mostrar Lista" line="31">
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.187" endtime="20220812 18:18:44.188"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[0]}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.188" endtime="20220812 18:18:44.189"/>
+<status status="PASS" starttime="20220812 19:15:34.299" endtime="20220812 19:15:34.300"/>
+</iter>
+<iter>
+<var name="${item}">Iphone</var>
+<kw name="Exit For Loop If" library="BuiltIn">
+<arg>"${item}" == "Iphone"</arg>
+<doc>Stops executing the enclosing FOR loop if the ``condition`` is true.</doc>
+<msg timestamp="20220812 19:15:34.301" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" starttime="20220812 19:15:34.301" endtime="20220812 19:15:34.301"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[1]}</arg>
+<arg>${item}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.189" endtime="20220812 18:18:44.190"/>
+<status status="NOT RUN" starttime="20220812 19:15:34.302" endtime="20220812 19:15:34.302"/>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[2]}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.190" endtime="20220812 18:18:44.191"/>
+<status status="PASS" starttime="20220812 19:15:34.300" endtime="20220812 19:15:34.302"/>
+</iter>
+<status status="PASS" starttime="20220812 19:15:34.295" endtime="20220812 19:15:34.302"/>
+</for>
+<status status="PASS" starttime="20220812 19:15:34.294" endtime="20220812 19:15:34.302"/>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[3]}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.192" endtime="20220812 18:18:44.194"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${CELULAR[4]}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.194" endtime="20220812 18:18:44.196"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.186" endtime="20220812 18:18:44.197"/>
-</test>
-<test id="s1-t3" name="Operações" line="40">
-<kw name="Evaluate" library="BuiltIn">
-<var>${resultado}</var>
-<arg>2+2</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.199" level="INFO">${resultado} = 4</msg>
-<status status="PASS" starttime="20220812 18:18:44.199" endtime="20220812 18:18:44.199"/>
-</kw>
-<kw name="Evaluate" library="BuiltIn">
-<var>${resultado}</var>
-<arg>2-2</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.200" level="INFO">${resultado} = 0</msg>
-<status status="PASS" starttime="20220812 18:18:44.200" endtime="20220812 18:18:44.200"/>
-</kw>
-<kw name="Evaluate" library="BuiltIn">
-<var>${resultado}</var>
-<arg>2*2</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.201" level="INFO">${resultado} = 4</msg>
-<status status="PASS" starttime="20220812 18:18:44.201" endtime="20220812 18:18:44.201"/>
-</kw>
-<kw name="Evaluate" library="BuiltIn">
-<var>${resultado}</var>
-<arg>2/2</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.202" level="INFO">${resultado} = 1.0</msg>
-<status status="PASS" starttime="20220812 18:18:44.202" endtime="20220812 18:18:44.202"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.198" endtime="20220812 18:18:44.203"/>
-</test>
-<test id="s1-t4" name="Média do aluno pelo dicionário" line="50">
-<kw name="Evaluate" library="BuiltIn">
-<var>${media}</var>
-<arg>(${ALUNO.nota1} + ${ALUNO.nota2} + ${ALUNO.nota3}) / 3</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.208" level="INFO">${media} = 9.666666666666666</msg>
-<status status="PASS" starttime="20220812 18:18:44.205" endtime="20220812 18:18:44.208"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${media}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.209" endtime="20220812 18:18:44.210"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.204" endtime="20220812 18:18:44.211"/>
-</test>
-<test id="s1-t5" name="Média do aluno pela lista" line="54">
-<kw name="Evaluate" library="BuiltIn">
-<var>${media}</var>
-<arg>(${NOTAS[0]} + ${NOTAS[1]} + ${NOTAS[2]}) / 3</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.214" level="INFO">${media} = 8.333333333333334</msg>
-<status status="PASS" starttime="20220812 18:18:44.213" endtime="20220812 18:18:44.214"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${media}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.215" endtime="20220812 18:18:44.215"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.213" endtime="20220812 18:18:44.216"/>
-</test>
-<test id="s1-t6" name="Argumentos e retornos" line="58">
-<kw name="Somar dois números">
-<var>${resultado}</var>
-<arg>6</arg>
-<arg>3</arg>
-<kw name="Evaluate" library="BuiltIn">
-<var>${SOMA}</var>
-<arg>${NUM1} + ${NUM2}</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.220" level="INFO">${SOMA} = 9</msg>
-<status status="PASS" starttime="20220812 18:18:44.219" endtime="20220812 18:18:44.220"/>
-</kw>
-<msg timestamp="20220812 18:18:44.220" level="INFO">${resultado} = 9</msg>
-<status status="PASS" starttime="20220812 18:18:44.219" endtime="20220812 18:18:44.220"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${resultado}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.220" endtime="20220812 18:18:44.221"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.218" endtime="20220812 18:18:44.221"/>
-</test>
-<test id="s1-t7" name="Argumentos embutidos" line="62">
-<kw name="Somar os números 2 e 5" sourcename="Somar os números ${NUM1} e ${NUM2}">
-<var>${resultado}</var>
-<kw name="Evaluate" library="BuiltIn">
-<var>${SOMA}</var>
-<arg>${NUM1} + ${NUM2}</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.226" level="INFO">${SOMA} = 7</msg>
-<status status="PASS" starttime="20220812 18:18:44.225" endtime="20220812 18:18:44.226"/>
-</kw>
-<msg timestamp="20220812 18:18:44.226" level="INFO">${resultado} = 7</msg>
-<status status="PASS" starttime="20220812 18:18:44.224" endtime="20220812 18:18:44.226"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${resultado}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.226" endtime="20220812 18:18:44.230"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.222" endtime="20220812 18:18:44.230"/>
-</test>
-<test id="s1-t8" name="Subtraindo" line="66">
-<kw name="Subtrair dois números">
-<var>${resultado}</var>
-<arg>9</arg>
-<arg>3</arg>
-<kw name="Evaluate" library="BuiltIn">
-<var>${SUB}</var>
-<arg>${NUM1} - ${NUM2}</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.233" level="INFO">${SUB} = 6</msg>
-<status status="PASS" starttime="20220812 18:18:44.233" endtime="20220812 18:18:44.233"/>
-</kw>
-<msg timestamp="20220812 18:18:44.234" level="INFO">${resultado} = 6</msg>
-<status status="PASS" starttime="20220812 18:18:44.232" endtime="20220812 18:18:44.234"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${resultado}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.234" endtime="20220812 18:18:44.235"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.231" endtime="20220812 18:18:44.236"/>
-</test>
-<test id="s1-t9" name="Dividindo" line="70">
-<kw name="Dividir dois números">
-<var>${resultado}</var>
-<arg>6</arg>
-<arg>3</arg>
-<kw name="Evaluate" library="BuiltIn">
-<var>${DIV}</var>
-<arg>${NUM1} / ${NUM2}</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.238" level="INFO">${DIV} = 2.0</msg>
-<status status="PASS" starttime="20220812 18:18:44.238" endtime="20220812 18:18:44.239"/>
-</kw>
-<msg timestamp="20220812 18:18:44.239" level="INFO">${resultado} = 2.0</msg>
-<status status="PASS" starttime="20220812 18:18:44.238" endtime="20220812 18:18:44.239"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${resultado}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.239" endtime="20220812 18:18:44.239"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.237" endtime="20220812 18:18:44.240"/>
-</test>
-<test id="s1-t10" name="Multiplicando" line="74">
-<kw name="Multiplicar dois números">
-<var>${resultado}</var>
-<arg>3</arg>
-<arg>3</arg>
-<kw name="Evaluate" library="BuiltIn">
-<var>${MULT}</var>
-<arg>${NUM1} * ${NUM2}</arg>
-<doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20220812 18:18:44.242" level="INFO">${MULT} = 9</msg>
-<status status="PASS" starttime="20220812 18:18:44.241" endtime="20220812 18:18:44.243"/>
-</kw>
-<msg timestamp="20220812 18:18:44.243" level="INFO">${resultado} = 9</msg>
-<status status="PASS" starttime="20220812 18:18:44.241" endtime="20220812 18:18:44.243"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${resultado}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.243" endtime="20220812 18:18:44.244"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.240" endtime="20220812 18:18:44.244"/>
-</test>
-<test id="s1-t11" name="Escreve email" line="78">
-<kw name="Retorna e-mail Completo everton" sourcename="Retorna e-mail Completo ${EMAIL}">
-<var>${EMAIL}</var>
-<msg timestamp="20220812 18:18:44.248" level="INFO">${EMAIL} = everton@email.com.br</msg>
-<status status="PASS" starttime="20220812 18:18:44.247" endtime="20220812 18:18:44.248"/>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<arg>${EMAIL}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20220812 18:18:44.249" endtime="20220812 18:18:44.250"/>
-</kw>
-<status status="PASS" starttime="20220812 18:18:44.246" endtime="20220812 18:18:44.250"/>
+<status status="PASS" starttime="20220812 19:15:34.293" endtime="20220812 19:15:34.303"/>
 </test>
 <doc>Tipos de váriaveis</doc>
-<status status="PASS" starttime="20220812 18:18:44.131" endtime="20220812 18:18:44.252"/>
+<status status="PASS" starttime="20220812 19:15:34.273" endtime="20220812 19:15:34.305"/>
 </suite>
 <statistics>
 <total>
-<stat pass="11" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="11" fail="0" skip="0" id="s1" name="testeVariavel">testeVariavel</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="testeVariavel">testeVariavel</stat>
 </suite>
 </statistics>
 <errors>
